@@ -1,0 +1,25 @@
+@charset "UTF-8";
+header{
+    text-align:center;
+}
+nav{
+    background-color:darkblue;
+    color:black;
+    text-align:center;
+    box-shadow: blue 10px 0px 25px;
+}
+p{
+    text-align: left;
+}
+h1{
+    text-align:center;
+}
+body{
+    background:linear-gradient(red,blue);
+    height:600px;
+}
+footer{
+    background-color:gray;
+    text-align:center;
+    box-shadow:grey 10px 0px 25px;
+}
