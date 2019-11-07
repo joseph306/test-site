@@ -1,25 +1,39 @@
 @charset "UTF-8";
+html{
+    color:#E9C46A;
+}
+body{
+    background:linear-gradient(#264653,#2A9D8F);
+    height:600px;
+    margin-top:0;
+}
 header{
     text-align:center;
 }
 nav{
-    background-color:darkblue;
-    color:black;
     text-align:center;
-    box-shadow: blue 10px 0px 25px;
+    background-color:red;
+    padding:5px;
+}
+nav a{
+    margin-right:20px;
+    text-decoration:none;
 }
 p{
-    text-align: left;
+    text-align:center;
 }
 h1{
     text-align:center;
-}
-body{
-    background:linear-gradient(red,blue);
-    height:600px;
 }
 footer{
     background-color:gray;
     text-align:center;
     box-shadow:grey 10px 0px 25px;
+}
+div#work{
+    height:800px;
+}
+img{
+    height:1in;
+    width:1in;
 }
