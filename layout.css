@@ -12,8 +12,9 @@ header{
 }
 nav{
     text-align:center;
-    background-color:red;
+    background-color:black;
     padding:5px;
+    box-shadow:black 10px 0px 25px;
 }
 nav a{
     margin-right:20px;
@@ -25,15 +26,32 @@ p{
 h1{
     text-align:center;
 }
-footer{
-    background-color:gray;
+div#contact{
     text-align:center;
-    box-shadow:grey 10px 0px 25px;
+}
+div#skills{
+    text-align:center;
 }
 div#work{
-    height:800px;
+    height:150px;
+    text-align:center;
+}
+div#work a{
+    text-align:center;
 }
 img{
     height:1in;
     width:1in;
 }
+footer{
+    background-color:black;
+    text-align:center;
+    box-shadow:black 10px 0px 25px;
+    height:20px;
+    position: absolute;
+    bottom:0%;
+    width:100%;
+}
+
+
+
